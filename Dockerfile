@@ -60,6 +60,7 @@ COPY --chown=www:www . /var/www
 # # Имя пользователя
 USER www
 
+
 # Устанавливаем порт для PHP
 EXPOSE 9000
 CMD ["php-fpm"]
